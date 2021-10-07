@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Key4.Gentle</title>
+    <link href="images/Gentleman-logo-removebg-preview.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="js/fashion.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="demo.html"><img src="images/k414.png" alt="Gentleman"></a>
+        </div>
+        <div class="toggle" onclick="toggleMenu()">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a class="navitem" href="#">Fashion</a></li>
+                <li><a class="navitem" href="#">Beauty</a></li>
+                <li><a class="navitem" href="#">Culture</a></li>
+                <li><a class="navitem" href="#">living</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="menu-img">
+        <ul class="menu1">
+            <li class="tab active" onclick=" changeimg('Celebrity-Style',this)"><a href="#">Celebrity Style</a></li>
+            <li class="tab" onclick=" changeimg('Street-Style',this)"><a href="#">Street Style</a></li>
+            <li class="tab" onclick=" changeimg('Models',this)"><a href="#">Models</a></li>
+            <li class="tab" onclick=" changeimg('Trends',this)"><a href="#">Trends</a></li>
+        </ul>
+        <div class="container-item">
+            <div class="img">
+                <ul class="item-img" id="Celebrity-Style">
+                    <li><img src="./img/pastle.jpg"></li>
+                    <li><img src="./img/polo.jpg"></li>
+                    <li><img src="./img/xam.jpg"></li>
+                    <li><img src="./img/xam1.jpg"></li>
+                    <li><img src="./img/badboy.jpg"></li>
+                    <li><img src="./img/beauty1.jpg"></li>
+                </ul>
+            </div>
+            <div class="img">
+                <ul class="item-img" id="Street-Style">
+                    <li><img src="./images/foter2.jpg"></li>
+                    <li><img src="./img/beauty2.jpg"></li>
+                    <li><img src="./img/beauty1.jpg"></li>
+                    <li><img src="./img/beauty3.jpg"></li>
+                    <li><img src="./img/beauty4.jpg"></li>
+                    <li><img src="./img/beauty5.jpg"></li>
+                </ul>
+            </div>
+            <div class="img">
+                <ul class="item-img" id="Models">
+                    <li><img src="./images/foter3.jpg"></li>
+                    <li><img src="./images/foter1.jpg"></li>
+                    <li><img src="./images/foter2.jpg"></li>
+                    <li><img src="./images/foter4.jpg"></li>
+                    <li><img src="./img/trend3.jpg"></li>
+                    <li><img src="./img/xam.jpg"></li>
+                </ul>
+            </div>
+            <div class="img">
+                <ul class="item-img" id="Trends">
+                    <li><img src="./img/trend1.jpg"></li>
+                    <li><img src="./img/trend2.jpg"></li>
+                    <li><img src="./img/trend4.jpg"></li>
+                    <li><img src="./img/trend5.jpg"></li>
+                    <li><img src="./img/trend.jpg"></li>
+                    <li><img src="./img/trend3.jpg"></li>
+
+                </ul>
+            </div>
+            <div class="index" onclick="index(this)" id="show"><a href="#"><i class="fas fa-align-justify"></i></a></div>
+            <div class="text-index" id="index">
+                <div class="icon" onclick="index1()"><a href="#"><i class="fas fa-angle-double-right"></i></a></div>
+                <img src="./images/k414.png" alt="">
+                <div class="img-index">
+                    <a href="#">
+                        <h3>Subscribe to The Get</h3>
+                    </a>
+                </div>
+                <div class="icon-index">
+                    <a href="#"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a>
+                    <a href="#"> <i class="fab fa-twitter" aria-hidden="true"></i> </a>
+                    <a href="#"> <i class="fab fa-instagram" aria-hidden="true"></i> </a>
+                    <a href="#"> <i class="fab fa-youtube" aria-hidden="true"></i> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
