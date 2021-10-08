@@ -47,11 +47,17 @@ window.onscroll = function() {
     var a = document.documentElement.scrollTop;
     b = document.getElementById('index');
     c = document.getElementById('show');
-    if (a > 550) {
+    if (a > 350) {
         b.style.display = 'none'
         c.style.display = 'none'
     } else {
-        b.style.display = 'block'
-        c.style.display = 'block'
+        d = b.style.display;
+        if (d == 'none') {
+            b.style.display = 'none'
+            c.style.display = 'block'
+        } else {
+            b.style.display = 'block'
+            c.style.display = 'block'
+        }
     }
 }

@@ -507,7 +507,7 @@ body {
     position: relative;
 }
 
-.index a i {
+.index i {
     font-size: 50px;
 }
 
@@ -522,13 +522,12 @@ body {
     z-index: 100;
     position: fixed;
     color: white;
-    /* display: none; */
 }
 
-.text-index a {
-    top: 0%;
+.text-index {
+    top: 50%;
     font-size: 50px;
-    ;
+    display: block;
 }
 
 .icon {
@@ -539,7 +538,7 @@ body {
     padding-top: 10px;
 }
 
-.img-index a h3 {
+.img-index h3 {
     margin-top: 10px;
     background-color: black;
     padding: 10px 10px 10px 10px;
@@ -558,6 +557,6 @@ body {
     margin-top: 40px;
 }
 
-.icon-index a i {
+.icon-index i {
     color: white;
 }
